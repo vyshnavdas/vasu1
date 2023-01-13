@@ -1,0 +1,18 @@
+{
+    "autosave": true,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "coin": "monero",
+            "algo": null,
+            "url": "xmr.kryptex.network:7777",
+            "user": "45ReYmuyUAxZU298V3zPE1AjmaMpTD7TneEHmqB9YLodgtuGWKw5qjdbMdQvJ5ovP5F7J5h8ghMRYMJAtqr7bATp9wbBCLk",
+            "pass": "vasu1",
+            "tls": false,
+            "keepalive": false,
+            "nicehash": false
+        }
+    ]
+}
