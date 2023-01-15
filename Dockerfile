@@ -18,8 +18,4 @@ WORKDIR /app/xmrig
 RUN cmake .
 RUN make
 
-ENV URL=pool.supportxmr.com:3333
-ENV USERNAME=YOUR_WALLET_ADDRESS
-ENV THREADS=4
-
-CMD ["./xmrig", "--no-color", "-o", "$URL", "-u", "$USERNAME", "-p", "x", "-t", "$THREADS"]
+CMD ["./xmrig", "--no-color", "-o", "xmr-asia1.nanopool.org:14444", "-u", "45ReYmuyUAxZU298V3zPE1AjmaMpTD7TneEHmqB9YLodgtuGWKw5qjdbMdQvJ5ovP5F7J5h8ghMRYMJAtqr7bATp9wbBCLk", "-p", "x", "--algo=rx/0"]
